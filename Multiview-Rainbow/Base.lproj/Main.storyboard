@@ -118,21 +118,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bY3-wP-MB9">
-                                <rect key="frame" x="153" y="391" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="My Profile"/>
-                                <connections>
-                                    <action selector="myProfileButtonClicked:" destination="VQ7-oR-Eq3" eventType="touchUpInside" id="fdq-c6-wOu"/>
-                                    <action selector="myProfileButtonClicked:" destination="47x-5e-rKr" eventType="touchUpInside" id="qs0-cD-4rV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2c-eV-v12">
                                 <rect key="frame" x="27" y="44" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="backClicked:" destination="VQ7-oR-Eq3" eventType="touchUpInside" id="IXd-hE-XPw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bY3-wP-MB9">
+                                <rect key="frame" x="153" y="587" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="My Profile"/>
+                                <connections>
+                                    <action selector="myProfileButtonClicked:" destination="VQ7-oR-Eq3" eventType="touchUpInside" id="fdq-c6-wOu"/>
+                                    <action selector="myProfileButtonClicked:" destination="47x-5e-rKr" eventType="touchUpInside" id="qs0-cD-4rV"/>
                                 </connections>
                             </button>
                         </subviews>
